@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kings&family=Montserrat:wght@100&display=swap');
+body {
+  text-align: center;
+  background-color: #011F3F;
+  /* background-color:rgba(121, 59, 59, 0.7); */
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+#gameheading{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 30%;
+  margin: auto;
+  background-color: grey;
+  border-radius: 10%;
+  border: inset;
+}
+.container .playbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 19px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 2px ridge ;
+  border-radius: 20%;
+  cursor:pointer;
+  
+
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  box-shadow: seagreen;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
